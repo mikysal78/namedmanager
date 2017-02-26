@@ -33,7 +33,7 @@ $config["bind"]["verify_config"]	= "/usr/sbin/named-checkconf";		// Used to veri
 // directory configuration or you really, really to store you zonefiles
 // in a different location
 //
-// $config["bind"]["zonefullpath"]		= "on";
+$config["bind"]["zonefullpath"]		= "on";
 
 
 // force debugging on for all users + scripts
