@@ -26,7 +26,7 @@ cd namedmanager/
 ## 2. Install the MySQL database
 
 ~~~
-$ mysql ­-u root ­< sql/_install.sql
+$ mysql ­-u root ­< sql/install.sql
 ~~~
 
 
