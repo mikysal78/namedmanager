@@ -1,7 +1,7 @@
 <?php
 /* API Configuration */
 
-$config["api_url"]		= "http://dns.nnxx/manedmanager";			// Application Install Location
+$config["api_url"]		= "http://dns.nnxx/namedmanager";			// Application Install Location
 $config["api_server_name"]	= "dns.nnxx";						// Name of the DNS server (important: part of the authentication process)
 $config["api_auth_key"]		= "ninux";						// API authentication key
 
