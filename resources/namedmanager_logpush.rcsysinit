@@ -8,7 +8,7 @@
 
 
 # Source function library.
-#. /lib/lsb/init-functions
+. /lib/lsb/init-functions
 
 start()
 {
