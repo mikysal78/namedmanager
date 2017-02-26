@@ -65,6 +65,7 @@ chown www-data:www-data /var/log/namedmanager
 ~~~
 apt-get -y install bind9
 cp -R bind/* /etc/bind/
+mkdir /etc/bind/zones
 cp bind/include/sample-config.php /etc/namedmanager/config-bind.php
 ln -s /etc/namedmanager/config-bind.php $PWD/bind/include/config-settings.php
 ln -s /etc/namedmanager/config-bind.php /etc/bind/include/config-settings.php
