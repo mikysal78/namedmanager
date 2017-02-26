@@ -1,17 +1,15 @@
 # BindManager
 
 ## Project Homepage
-Questo è un fork di namedmanager.
+Questo è un fork di [NamedManager](https://github.com/jethrocarr/namedmanager).
 
 For more information including source code, issue tracker and documentation
-visit the original project homepage:
-
-https://github.com/jethrocarr/namedmanager/wiki
+visit the original [wiki](https://github.com/jethrocarr/namedmanager/wiki)
 
 
 # Installing 
 
-Install playbook ansible-general-services (webserver)
+Install playbook ansible-general-services (webserver) or Apache2, php5, MariaDB
 
 
 ## 1. Getting code from Git 
@@ -108,4 +106,3 @@ If planning to use the Amazon AWS Route53 integration, read [Installation-Integr
 You can now begin adding DNS zones - by importing existing Bind zonefiles, generating reverse zones or manual entry of records into the web interface.
 
 Use the application configuration panel to set defaults such as SOA contact and expiry times for your domains.
-
