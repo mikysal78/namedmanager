@@ -16,7 +16,7 @@ Install playbook ansible-general-services (webserver) or Apache2, php5, MariaDB
 
 ~~~
 cd /opt/
-git clone git@github.com:mikysal78/namedmanager.git
+git clone https://github.com/mikysal78/namedmanager.git
 cd namedmanager/
 ~~~
 
